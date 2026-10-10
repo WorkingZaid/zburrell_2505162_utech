@@ -9,11 +9,6 @@
     format("truetype");
 }
 @font-face {
-  font-family: "PlayWright";
-  src: url("../Assets/Fonts//Playwrite_BE_WAL_Guides/PlaywriteBEWALGuides-Regular.ttf")
-    format("truetype");
-}
-@font-face {
   font-family: "Cinzel";
   src: url("../Assets/Fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf")
     format("truetype");
