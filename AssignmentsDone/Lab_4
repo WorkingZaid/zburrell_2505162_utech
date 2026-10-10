@@ -1,0 +1,73 @@
+<!DOCTYPE html> <!--The doctype statement indicates the markup language of the document-->
+<html>
+
+<head> <!--The head element provides information and instructions to the browser about the document. -->
+    <title>Forms- Page</title> <!--The contents of the title element appear in the browser title bar.-->
+</head>
+
+<body>
+    <form name="f1" action="test.aspx" method="post">
+        <fieldset>
+            <legend> Student Info : </legend>
+            <label> Student Name: </label>
+            <input type="text" name="tb1" maxlength="6" minlength="3" placeholder="Type your fullname"
+                required /><br /><br />
+
+
+            <label> Student ID#: </label>
+            <input type="number" name="tb2" maxlength="6" minlength="3" placeholder="Type your ID#"
+                required /><br /><br />
+
+            <label> Student Password: </label>
+            <input type="password" name="tb3" placeholder="Type your password" /><br /><br />
+
+
+            <label> Student DOB: </label>
+            <input type="date" name="tb4" /><br /><br />
+
+            <label> Student Email: </label>
+            <input type="email" name="tb5" /><br /><br />
+
+            <input type="month" name="tb4" /><br />
+            <input type="time" name="tb4" /><br />
+            <input type="tel" name="tb4" /><br />
+            <input type="file" name="tb4" /><br />
+
+            <label> Student Gender: </label>
+            <input type="radio" name="tb6" />Male
+            <input type="radio" name="tb6" /> Female <br /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend> Module Selection : </legend>
+            <label> Select a semester: </label>
+            <input type="radio" name="tb7" checked />Sem1
+            <input type="radio" name="tb7" /> Sem2
+            <input type="radio" name="tb7" /> Summer<br /><br />
+
+            <label> Select your modules: </label>
+            <input type="checkbox" name="tb8" checked />DBMS
+            <input type="checkbox" name="tb9" /> Java
+            <input type="checkbox" name="tb10" /> Networking <br /><br />
+
+            <label> Select your Major: </label>
+            <select>
+                <option> Animation</option>
+                <option selected> Data Analysis</option>
+                <option> A.I</option>
+                <option> Enterprise System</option>
+            </select> <br />
+
+        </fieldset>
+
+        <label> Give your feedback: </label>
+        <textarea name="ta" rows="8" cols="20">
+        type your comments
+      </textarea>
+
+        <input type="submit" value="submit to server" />
+        <input type="reset" value="Clear" />
+        <input type="button" value="Call JS" />
+        </from>
+</body>
+</head>

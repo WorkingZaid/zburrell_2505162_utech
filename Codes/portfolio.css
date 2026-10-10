@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../Assets/Fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayFair";
+  src: url("../Assets/Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayWright";
+  src: url("../Assets/Fonts//Playwrite_BE_WAL_Guides/PlaywriteBEWALGuides-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("../Assets/Fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf")
+    format("truetype");
+}
+* {
+  font-family: PlayFair;
+  font-weight: 500;
+  margin: 0px;
+}
+h1,
+h2 {
+  padding: 0px;
+}
+/*Starting to work on the main area of the website*/
+.mainContainer {
+  display: grid;
+  grid-template: 250px repeat(4, 1fr) / 450px 1fr;
+}
+.headerContainer {
+  display: grid;
+  grid-template-rows: 200px;
+  justify-items: center;
+  align-items: center;
+  text-align: start;
+  margin-top: 10px;
+}
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.headerContainer h1 {
+  font-size: 60px;
+  grid-row: 1;
+  grid-area: 1/1;
+}
+.headerContainer h2 {
+  color: #5faac0;
+  opacity: 40%;
+  font-size: 200px;
+  grid-area: 1/1;
+  height: 160px;
+  display: flex;
+  align-items: center;
+}
+.annoying {
+  opacity: 20%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#mailtoAnchor {
+  grid-area: 2/1/6/2;
+  justify-self: center;
+}
+.pfp {
+  height: 400px;
+  width: 400px;
+  justify-self: center;
+  border-radius: 100px;
+}
+#blue_asterik {
+  grid-area: 2/2/3/3;
+}
+#yellow_asterik {
+  grid-area: 3/2/4/3;
+}
+#purple_asterik {
+  grid-area: 4/2/5/3;
+}
+#orange_github{
+  grid-area: 5/2/6/3;
+  padding-left: 18vw;
+  width: 100px;
+}
+#githubIcon{
+  width: 100px;
+  height: 100px;
+}
+.asterik {
+  height: 70px;
+  width: 70px;
+  align-self: center;
+}
+.epic_title,
+.navigationTitle {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: OpenSans;
+  justify-self: center;
+}
+.asterikContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.asterikLabel {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Cinzel;
+}
+.orangeFlowers,
+.blueFlowers {
+  position: absolute;
+  z-index: -1;
+}
+.blueFlowers {
+  right: 0px;
+  bottom: 0px;
+}
+.orangeFlowers {
+  right: 0px;
+  top: 0px;
+  width: 500px;
+}
+/*Making the style of the anchor element not prohibit how the bullet points look*/
+a {
+  color: black;
+  text-decoration: inherit;
+  font-family: inherit;
+}
+#blue_asterik a:hover {
+  color: #7ec8e3;
+}
+#yellow_asterik a:hover {
+  color: #f1cb38;
+}
+#purple_asterik a:hover {
+  color: #7e0459;
+}
+a:active {
+  color: black;
+}
+/*Professional styling*/
+
+
+/*Starting to work on the main area of the website*/
+.pHeaderContainer {
+  display: grid;
+  grid-template-rows: 90px;
+  justify-items: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.pHeaderContainer h1 {
+  font-size: 27px;
+  grid-row: 1;
+  grid-area: 1/1;
+}
+.pHeaderContainer h2 {
+  color: #5faac0;
+  opacity: 40%;
+  font-size: 100px;
+  grid-area: 1/1;
+  display: flex;
+  align-items: center;
+}
+.pHeader {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  justify-content: start;
+}
+.pageName {
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+  opacity: 50%;
+}
+.subPagesMargin {
+  margin-bottom: 40px;
+}
+#professionalContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.professionalSubContainers{
+  text-align: center;
+  background-color: rgb(213, 211, 211);
+  box-shadow: #BFDDE6 20px 10px;
+  border-radius: 30px;
+  height: calc(fit-content + 100px);
+  padding: 0px 40px;
+}
+#envelope {
+  position: relative;
+  top: 50px;
+  width: 300px;
+  height: 200px;
+}
+#assignmentsDone {
+  margin-top: 50px;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 100;
+}
+#previewResume{
+  margin-top: 10px;
+}
+
+/*Working on personality container*/
+
+.personalityGridContainer{
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr;  
+  justify-items: center;
+  gap: 40px;
+} 
+.personalitySubContainers{
+  background-color: black;
+  text-align: center;
+  background-color: rgb(213, 211, 211);
+  box-shadow: #BFDDE6 20px 15px;
+  border-radius: 30px;
+  height: fit-content;
+  width: 40vw;
+  padding: 10px 40px;  
+}
+#shortEssay{
+  grid-column: span 2;
+  width: 80vw;
+  height: fit-content;
+}
+#shortEssay h3{
+  margin-bottom: 20px;
+}
+.personalitySubContainers h3{
+  font-size: 25px;
+}
+.personalitySubContainers h4{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.theDon{
+  color: #86684A;
+}
+#shortEssay p{
+  margin-bottom: 18px;
+}
+/*Working on personal development page now*/
+.reportContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subReportContainer{ /*Can be reused and reduce code repitition*/
+  text-align: center;
+  background-color: rgb(213, 211, 211);
+  box-shadow: #BFDDE6 20px 10px;
+  border-radius: 30px;
+  height: fit-content;
+  width: 80vw;
+  padding: 10px 40px; 
+}
+.subReportContainer h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.subReportContainer p{
+  margin-bottom: 8px;
+}
+/*Doing references page*/
+#references{ /*Can be reused and reduce code repitition*/
+  background-color: rgb(213, 211, 211);
+  box-shadow: #BFDDE6 20px 10px;
+  border-radius: 30px;
+  height: fit-content;
+  width: 80vw;
+  padding: 10px 40px; 
+}
+#referencesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#references p{
+  margin: 20px 0px;
+  padding-left: 20px;
+  text-indent: hanging 36px;   
+}

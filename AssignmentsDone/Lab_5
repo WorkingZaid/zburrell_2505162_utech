@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!--The doctype statement indicates the markup language of the document-->
+<html>
+
+<head> <!--The head element provides information and instructions to the browser about the document. -->
+    <title>JavaScript- Lab1 </title> <!--The contents of the title element appear in the browser title bar.-->
+    <script type="text/javascript">
+
+        document.write("<b style='color:blue;'> Hello Class </b><br/>");
+
+        document.writeln("Welcome<br/>");
+
+        var x, y;
+        x = 3.5;
+        y = 5.2;
+        document.write("Sum is :" + (x + y) + " <br/>");
+
+        var x1, y1;
+        x1 = window.prompt("Enter the first number", 4);
+        y1 = window.prompt("Enter the second number");
+        document.write("Sum is :" + (parseFloat(x1) + parseFloat(y1)));
+
+        //parseInt(), parseFloat()
+
+        window.alert("Save and Exit");
+
+        let choice = window.confirm("Do you want to open the file");
+
+        if (choice) {
+            window.open("forms.html", "_blank");
+        }
+        else {
+            // window.close();
+            window.print();
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+
+
+</body>
+
+</html>

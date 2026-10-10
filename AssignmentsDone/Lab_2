@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!--The doctype statement indicates the markup language of the document-->
+<html>
+
+<head> <!--The head element provides information and instructions to the browser about the document. -->
+    <title>My second Page</title> <!--The contents of the title element appear in the browser title bar.-->
+
+</head>
+
+<body link="red" vlink="green"><!-- background="../pic2.jpg"-->
+    <!-- Lists: Ordered List, Unordered list, Description lists -->
+    <a name="top">
+        <h2>Ordered List </h2>
+    </a>
+    <ol type="i" start="4">
+        <li>C++ </li>
+        <li> Java</li>
+        <ol>
+            <li>Functions</li>
+            <li>Classes</li>
+        </ol>
+        <li> DBMS </li>
+
+    </ol>
+
+    <a name="ul">
+        <h2>Un-Ordered List </h2>
+    </a> <!-- disc,square,circle -->
+    <ul type="circle">
+        <li>C++ </li>
+        <li> Java</li>
+        <ol type="a">
+            <li>Functions</li>
+            <li>Classes</li>
+        </ol>
+        <li> DBMS </li>
+    </ul>
+
+    <h2>Description List </h2>
+    <dl>
+        <dt>Html</dt>
+        <dd>Hypertext markup language </dd>
+        <dt>Javascript</dt>
+        <dd>Clientside scripting language </dd>
+    </dl>
+
+    <h2> Working with Images</h2>
+
+    <!-- Absolute file reference -->
+    <img src="C:\Users\siris\OneDrive\Desktop\Web Programming\Web Programming sem1 2026_27\Images\pic2.jpg"
+        alt="image not found" align="right" />
+
+    <!-- relative file reference -->
+    <img src="Images/pic2.jpg" alt="image not found" align="left" />
+
+    <!-- relative file reference -->
+    <img src="rose.jpg" alt="image not found" align="left" />
+
+    <!-- relative file reference -->
+    <img src="../pic2.jpg" alt="image not found" align="left" />
+
+    <!-- relative file reference -->
+    <a href="https://www.w3schools.com" target="_blank">
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="image not found" align="left" />
+    </a>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h2> Working with hyperlinks(Internal,External) </h2>
+
+    <a href="firstLab.html" target="frm"> First Lab Session </a> <br />
+    <a href="https://www.utech.edu.jm" target="_self"> Utech Home Page </a> <br />
+
+    <a href="#top"> Top of the page</a><br />
+    <a href="#ul"> Unordered List</a><br />
+
+
+    <iframe name="frm" src="https://www.w3schools.com" align="right" height="40%" width="40%"> </iframe>
+
+</body>
+
+</html>

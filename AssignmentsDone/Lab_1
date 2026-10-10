@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!--The doctype statement indicates the markup language of the document-->
+<html>
+
+<head> <!--The head element provides information and instructions to the browser about the document. -->
+    <title>My First Page</title> <!--The contents of the title element appear in the browser title bar.-->
+
+</head>
+
+<body bgcolor="violet">
+    <!-- Heading Tags -->
+    <u>
+        <center><i>
+                <h1>Welcome Students </h1>
+            </i></center>
+    </u>
+    <h2>Welcome Students </h2>
+    <h3>Welcome Students </h3>
+    <h4>Welcome Students </h4>
+    <h5>Welcome Students </h5>
+    <h6>Welcome Students </h6>
+
+    <!-- Bold -->
+    <b> Dispalys text in bold </b> <br /><br />
+    <strong> Displays the text in bold </strong></br>
+
+    <hr color="#ff5469" size="4" width="50%" align="right" />
+    <!-- italic -->
+    <i> Dispalys text in italic</i> <br /><br />
+    <em> Displays the text in italic </em></br>
+
+    <del>strikethrough effect </del>
+
+    <big>Displays the test bigger </big>
+    <small>Displays the test smaller </small> <br />
+
+    <p> This is my <q>first class</q> in <mark>Web Programming</mark> module &#128516; &#9748; &#169; </p>
+
+    x<sub>1</sub><sup>2</sup> + y<sub>2</sub><sup>3</sup>
+
+</body>
+
+</html>
