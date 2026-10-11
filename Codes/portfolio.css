@@ -189,7 +189,7 @@ a:active {
   background-color: rgb(213, 211, 211);
   box-shadow: #BFDDE6 20px 10px;
   border-radius: 30px;
-  height: calc(fit-content + 100px);
+  height: fit-content;
   padding: 0px 40px;
 }
 #envelope {
